@@ -1,0 +1,13 @@
+.post-rating {
+  height: 22px;
+}
+span.post-rating {
+  display: block;
+  background: transparent url("../images/stars.png") repeat-x top left;
+  z-index: 2;
+  position: absolute;
+}
+span.post-rating-max {
+  background-position: 0 -22px;
+  z-index: 1;
+}
